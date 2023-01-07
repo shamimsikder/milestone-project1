@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Banner Styles*/
+
+.banner-container{
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 130px;
+}
+
+.banner{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    padding: 210px;
+    padding-left: 1100px;
+    text-align: right;
+}
+
+.banner-title{
+    
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 30px;
+}
+
+.banner-button{
+    border: none;
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    color: #FFFF;
+    margin-left: 75%;
+}
+
+/*Failures Styles*/
+
+.failures-container{
+    padding: 130px 250px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.failures-items{
+    padding-left: 180px;
+}
+
+.failures-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 25px;
+    margin-top: 240px;
+    text-align: left;
+    padding: 20px;
+}
+
+.failures-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding: 20px;
+}
+
+.failures-lis{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.failures-lis i{
+    color: green;  
+}
+
+/*My Plans Styles*/
+
+.plans-container{
+    padding: 130px 250px;
+}
+
+.plans-items-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 24px;
+   text-align: center;
+}
+
+.plans-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 40px;
+}
+
+.plans-items{
+    padding: 35px;
+}
+
+.plans-items-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.plans-items-description{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/*Call Now Styles*/
+
+.call-now{
+    background-image: url('/images/gradient2.png'),url('/images/watch.png');
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+    padding: 120px;
+    text-align: left;
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.call-now-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+
+.call-now-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 20px 36px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #F15B22;
+    margin-left: 350px;
+}
+
+/*Footer Styles*/
+
+.footer-container{
+    display: flex;
+    justify-content: left;
+    background: #151414;
+}
+
+.footer-items{
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-right: 330px;
+    margin-bottom: 130px;
+}
+
+.left-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 10px;
+}
+
+.left-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer-img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.right-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.footer-mail{
+    margin-top: 10px;
+    border: none;
+    padding: 20px 22px;
+    background: black;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+}
+
+.footer-btn{
+    border: none;
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F15B22;
+    margin-top: 15px;
+}
