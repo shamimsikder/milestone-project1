@@ -93,10 +93,63 @@
     color: green;  
 }
 
+/*Skills Style*/
+
+.skills-container{
+    margin-top: 30px;
+    padding: 130px 250px;
+}
+
+.skills-title{
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.skills-description{
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    
+}
+
+.skills-items-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.skills-items{
+    padding: 25px;
+}
+
+.skills-items-title{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.skills-items-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
 /*My Plans Styles*/
 
 .plans-container{
-    padding: 130px 250px;
+    padding: 130px 300px;
 }
 
 .plans-items-container{
@@ -141,11 +194,16 @@
 /*Call Now Styles*/
 
 .call-now{
+
+    /*adding background image and gradient*/
+
     background-image: linear-gradient(to right bottom, #00bf72, #a8eb12),url('../images/watch.png');
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
+
+    /*styling gradient-image*/
 
     border-radius: 8px;
     padding: 80px;
