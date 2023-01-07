@@ -141,13 +141,19 @@
 /*Call Now Styles*/
 
 .call-now{
-    background-image: url('../images/gradient2.png'),url('../images/watch.png');
+    background-image: linear-gradient(to right bottom, #00bf72, #a8eb12),url('../images/watch.png');
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
-    background-size:auto;
+    background-size:cover;
     background-position: center;
-    padding: 120px;
+
+    border-radius: 8px;
+    padding: 80px;
     text-align: left;
+    margin-left: 380px;
+    margin-right: 380px;
     margin-bottom: 130px;
+
     display: flex;
     flex-direction: column;
 }
@@ -156,8 +162,8 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
-    color: #FFFFFF;
-    margin-left: 350px;
+    color:#F15B22;
+    margin-left: 50px;
     margin-bottom: 20px;
 }
 
@@ -170,7 +176,7 @@
     line-height: 23px;
     text-align: center;
     color: #F15B22;
-    margin-left: 350px;
+    margin-left: 50px;
 }
 
 /*Footer Styles*/
