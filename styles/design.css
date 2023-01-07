@@ -141,7 +141,7 @@
 /*Call Now Styles*/
 
 .call-now{
-    background-image: url('/images/gradient2.png'),url('/images/watch.png');
+    background-image: url('../images/gradient2.png'),url('../images/watch.png');
     background-repeat: no-repeat;
     background-size:auto;
     background-position: center;
